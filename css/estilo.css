@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position:absolute;
+    top: -20px;
+    left: 770px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(46, 158, 65);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: rgb(47, 78, 46)
+
+}   
+nav#menu h1 {
+    display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+    
+}
+nav#menu a:hover{
+    color: white;
+
+}
+
+body{
+    background-color: rgb(192, 228, 198);
+    color: rgba(0, 0, 0, 1);
+}
+
+div#fundo{
+    width: 1180px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,.5);
+    padding: 10px;
+}
