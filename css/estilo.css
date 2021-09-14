@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* Formatação MENU */
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
@@ -30,7 +30,7 @@ nav#menu a:hover{
     color: white;
 
 }
-
+/* Formatação FUNDO */
 body{
     background-color: rgb(192, 228, 198);
     color: rgba(0, 0, 0, 1);
