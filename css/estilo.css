@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+p { 
 
+    text-align: justify;
+    text-indent: 50px;
+}
 
 /* Formatação MENU */
 nav#menu ul{
