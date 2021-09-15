@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <title> As 6 melhores notícias sobre o COVID-19 </title>
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
-    </head>
 
-<p>Contato: um formulário onde os visitantes possam te procurar 
-    (ele não precisa ser hard coded, pode usar um form pronto de ferramentas de marketing)</p>
-    <body>
-    <form action="/pagina-processa-dados-do-form" method="post">
-        <div>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" />
-        </div>
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" />
-        </div>
-        <div>
-            <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
-        </div>
-        <div class="button">
-            <button type="submit">Enviar sua mensagem</button>
-        </div>
-    </form>
+<head>
+    <meta charset="UTF-8" />
+    <title> As 6 melhores notícias sobre o COVID-19 </title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+    <div id="fundo">
+        <header id="cabecalho">
+            <figure>
+                <img src="img/coronavirus.png" />
+            </figure>
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="saibamais.html">Saiba mais</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar sua mensagem</button>
+            </div>
+        </form>
+        <footer id="footer">
+            <p>Esse site tem por objetivo mostrar as 6 melhores notícias sobre o covid-19, criado pelo grupo 7. </p>
+            <p> &copy; Todos os direitos reservados. </p>
+        </footer>
+    </div>
+
 </body>
 
-    </html>
+<p>Contato: um formulário onde os visitantes possam te procurar
+    (ele não precisa ser hard coded, pode usar um form pronto de ferramentas de marketing)</p>
+
+</html>
