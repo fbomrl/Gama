@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 /* Formatação MENU */
 nav#menu ul{
     list-style: none;
@@ -44,9 +46,17 @@ div#fundo{
     box-shadow: 0px 0px 10px rgb(0, 0, 0,.5);
     padding: 10px;
 }
+/*Formatação Footer*/
+footer#footer{
+    clear: both;
+    border-top: 1px solid rgb(47, 78, 46)
+}
+footer#footer p{
+    text-align: center;
+   }
 
 
-/*Formulário*/
+/*Formatação Formulário*/
 
 form {
     /* Apenas para centralizar o form na página */
@@ -54,7 +64,7 @@ form {
     width: 400px;
     /* Para ver as bordas do formulário */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 1px solid rgb(47, 78, 46);
     border-radius: 1em;
 }
 
@@ -79,7 +89,7 @@ input, textarea {
     box-sizing: border-box;
 
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
-    border: 1px solid #999;
+    border: 1px solid rgb(47, 78, 46);
 }
 .button {
     /* Para posicionar os botões para a mesma posição dos campos de texto */
