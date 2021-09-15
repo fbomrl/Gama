@@ -37,6 +37,7 @@ nav#menu a:hover{
 body{
     background-color: rgb(192, 228, 198);
     color: rgba(0, 0, 0, 1);
+    margin: auto;
 }
 
 div#fundo{
@@ -49,7 +50,9 @@ div#fundo{
 /*Formatação Footer*/
 footer#footer{
     clear: both;
-    border-top: 1px solid rgb(47, 78, 46)
+    border-top: 1px solid rgb(47, 78, 46);
+    margin: 10px;
+    
 }
 footer#footer p{
     text-align: center;
