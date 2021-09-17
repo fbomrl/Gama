@@ -165,3 +165,7 @@ img#fotos{
     margin: 0px 10px 10px 0;
     max-width: 186px; 
 }
+
+h2{
+    text-align: center;
+}
