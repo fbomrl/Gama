@@ -143,8 +143,8 @@ figure.foto-legenda:hover figcaption{
 /* formatação nome sobre */
 h3#nomes{
     position: relative;
-    left: 500px;
-    text-align: justify;
+   
+    text-align: center;
     text-transform: uppercase;
     color: #000000;
     text-decoration: none;
