@@ -5,6 +5,11 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
+p#texto{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+}
 
 
 /* Formatação MENU */
@@ -133,4 +138,30 @@ figure.foto-legenda figcaption {
 }
 figure.foto-legenda:hover figcaption{
     opacity: 1;
+}
+
+/* formatação nome sobre */
+h3#nomes{
+    position: relative;
+    left: 500px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 100px;
+    
+}
+a#linkedin{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0,119,183);
+}
+
+img#fotos{
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 186px; 
 }
