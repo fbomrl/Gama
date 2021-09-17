@@ -8,6 +8,8 @@ p {
 p#texto{
     padding-top: 50px;
     padding-bottom: 40px;
+    padding-right: 1cm;
+    padding-left: 5cm;
     
 }
 
