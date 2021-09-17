@@ -9,7 +9,7 @@ p#texto{
     padding-top: 50px;
     padding-bottom: 40px;
     padding-right: 1cm;
-    padding-left: 5cm;
+    padding-left: 5;
     
 }
 
@@ -24,10 +24,11 @@ nav#menu ul{
 }
 nav#menu li {
     display: inline-block;
-    background-color: rgb(46, 158, 65);
+    background-color: #90EE90;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    border-radius: 8px;
 }
 nav#menu li:hover{
     background-color: rgb(47, 78, 46)
@@ -70,6 +71,8 @@ footer#footer{
 }
 footer#footer p{
     text-align: center;
+    font-weight: bolder;
+    
    }
 
 
@@ -166,10 +169,13 @@ a#linkedin{
 
 img#fotos{
     float: left;
-    border: transparent thin solid;
+    border-radius: 101px;
     padding: 5px;
     margin: 0px 10px 10px 0;
     max-width: 186px; 
+    
+    box-shadow: 1px 1px 4px black;
+    width: 34%;
 }
 
 h2{
