@@ -173,7 +173,6 @@ img#fotos{
     padding: 5px;
     margin: 0px 10px 10px 0;
     max-width: 186px; 
-    
     box-shadow: 1px 1px 4px black;
     width: 34%;
 }
@@ -182,5 +181,8 @@ h2{
     text-align: center;
 }
 
-
+div.contato{
+    box-shadow: 1px 1px 4px black;
+   
+}
 
