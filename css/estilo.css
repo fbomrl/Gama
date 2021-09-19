@@ -4,6 +4,7 @@
     font-family: "fonte-modern";
     src: url("../fonts/modern_sans_serif_7.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Code+Pro:ital,wght@1,900&display=swap');
 p { 
 
     text-align: justify;
@@ -138,7 +139,7 @@ button {
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
     margin-left: .5em;
     color: rgb(0, 0, 0);
-    background-color: rgb(46, 158, 65);
+    background-color: rgb(230, 160, 30);
 }
 
 /* Formatação de imagens com legendas */
@@ -200,8 +201,10 @@ img#fotos{
 
 h2.titulo-noticia{
     text-align: center;
-    font-family: "fonte-modern";
+    font-family: 'Bree Serif', serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20pt;
+    color: rgb(230, 160, 30);
 }
 
 div.contato{
@@ -211,11 +214,13 @@ div.contato{
     margin-bottom: 20px;
 }
 h1.titulo{
-    font-family: "fonte-modern";
+    font-family: 'Bree Serif', serif;
+    font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;
     font-size: 30pt;
     margin-left: 10%;
     margin-bottom: -2%;
+    color: rgb(230, 160, 30);
 }
 p.subtitulo{
     font-family: 'Open Sans', sans-serif;
