@@ -13,10 +13,17 @@ p#texto{
     padding-top: 50px;
     padding-bottom: 40px;
     padding-right: 1cm;
-    padding-left: 5;
+    padding-left: 5cm;
     
 }
-
+p.texto{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 1cm;
+    padding-left: 1cm;
+    text-align: justify;
+}
 
 /* Formatação MENU */
 nav#menu ul{
@@ -198,4 +205,7 @@ div.contato{
     padding-bottom: 30px;
     margin-bottom: 20px;
 }
-
+h1.titulo{
+    font-family: "fonte-modern";
+    font-size: 20pt;
+}
