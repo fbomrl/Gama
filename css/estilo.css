@@ -200,7 +200,8 @@ img#fotos{
 }
 
 h2.titulo-noticia{
-    text-align: center;
+    text-align: left;
+    margin-left: 120px;
     font-family: 'Bree Serif', serif;
     font-family: 'Source Code Pro', monospace;
     font-size: 20pt;
