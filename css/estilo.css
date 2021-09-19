@@ -248,3 +248,12 @@ p.link {
     padding-left: 1cm;
     text-align: justify;
 }
+/*Estilização Vídeos*/
+iframe.video{
+    padding-left: 100px;
+}
+
+/*Estlização Audios*/
+audio.audio{
+    padding-left: 100px;
+}
