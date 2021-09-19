@@ -231,3 +231,11 @@ p.subtitulo{
     padding-left: 2cm;
     text-align: justify; 
 }
+p.link {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    padding-right: 1cm;
+    padding-left: 1cm;
+    text-align: justify;
+}
