@@ -74,6 +74,7 @@ div#fundo{
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgb(0, 0, 0,.5);
     padding: 10px;
+    border-radius: 1cm;
 }
 /*Formatação Footer*/
 footer#footer{
@@ -176,7 +177,6 @@ h3#nomes{
     
 }
 a#linkedin{
-    color: #000000;
     text-decoration: none;
     font-weight: bolder;
     color: rgba(0,119,183);
@@ -207,5 +207,17 @@ div.contato{
 }
 h1.titulo{
     font-family: "fonte-modern";
-    font-size: 20pt;
+    text-transform: uppercase;
+    font-size: 30pt;
+    margin-left: 10%;
+    margin-bottom: -2%;
+}
+p.subtitulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 1cm;
+    padding-left: 2cm;
+    text-align: justify; 
 }
