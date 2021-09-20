@@ -56,8 +56,6 @@ nav#menu a{
     color: #000000;
     text-decoration: none;
     font-weight: bolder;
-    
-    
 }
 nav#menu a:hover{
     color: rgb(192, 228, 198);;
@@ -143,7 +141,10 @@ button {
     color: rgb(0, 0, 0);
     background-color: rgb(230, 160, 30);
 }
+img.logo-final{
+    padding-left: 904px;
 
+}
 /* Formatação de imagens com legendas */
 /*figure.foto-legenda {
     position: relative;
@@ -256,23 +257,20 @@ a.link {
     padding-left: 23cm;
     text-align: right;
     font-weight: bolder;
-    text-decoration: none;  
+    text-decoration: none; 
+    color: rgba(0,119,183); 
 }
 a.link-final {
-    /*font-family: 'Open Sans', sans-serif;
-    padding-left: 3cm;
-    font-weight: bolder;
-    text-decoration: none;  
-    text-transform: uppercase;
-    text-align: justify;*/
+
     font-family: 'Open Sans', sans-serif;
     padding-top: 1px;
     padding-bottom: 40px;
-    padding-left: 20cm;
+    padding-left: 22cm;
     text-align: right;
     font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;  
+    color: rgba(0,119,183); 
 }
 
 /*Estilização Vídeos*/
@@ -285,8 +283,6 @@ iframe.video{
     width: 45%;
     margin-top: 17px;
 }
-
-
 /*Estlização Audios*/
 audio.audio{
     border: 5px solid #90EE90;
