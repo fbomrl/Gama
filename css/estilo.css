@@ -241,16 +241,16 @@ p.subtitulo{
     padding-left: 2cm;
     text-align: justify; 
 }
-p.link {
+a.link {
     font-family: 'Open Sans', sans-serif;
     padding-top: 1px;
     padding-bottom: 40px;
     padding-left: 1cm;
-    text-align: justify;
     text-align: left;
     font-weight: bolder;
-  
+    text-decoration: none;  
 }
+
 /*Estilização Vídeos*/
 iframe.video{
     padding-left: 100px;
