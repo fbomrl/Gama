@@ -145,17 +145,22 @@ button {
 }
 
 /* Formatação de imagens com legendas */
-figure.foto-legenda {
+/*figure.foto-legenda {
     position: relative;
     border: 8px solid #90EE90;
     box-shadow: 1px 1px 4px black;
     width: 34%;
       
     
-}
+}*/
 figure.foto-legenda img{
-    width: auto;
-    height: auto;
+    float: left;
+    border-radius: 148px;
+    padding: 5px;
+    margin: 0px 35px 10px 15px;
+    max-width: 256px; 
+    box-shadow: 1px 1px 4px black;
+    width: 34%;
 }
 figure.foto-legenda figcaption {
     opacity: 0;
