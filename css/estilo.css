@@ -10,12 +10,12 @@ p {
     text-align: justify;
     text-indent: 50px;
 }
-p#texto{
+p.texto-sobre{
     padding-top: 50px;
     padding-bottom: 40px;
     padding-right: 1cm;
     padding-left: 5cm;
-    
+    font-family: 'Open Sans', sans-serif;
 }
 p.texto{
     font-family: 'Open Sans', sans-serif;
